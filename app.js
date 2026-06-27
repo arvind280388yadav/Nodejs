@@ -7,6 +7,10 @@ app.get("/", function (req, res) {
   res.send("<center><h3>My First Node A1pplication</h3></center>");
 });
 
+app.get("/about", function (req, res) {
+  res.send("<center><h3>About Page</h3></center>");
+});
+
 app.listen(PORT, function () {
   console.log(`listening on ${PORT}`);
 });
